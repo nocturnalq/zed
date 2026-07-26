@@ -1,0 +1,42 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // Toggle the project file tree panel
+      "cmd-e": "workspace::ToggleLeftDock"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      // Split vertically (editors side by side)
+      "cmd-\\": "pane::SplitRight",
+      // Split horizontally (editors stacked)
+      "cmd-shift-\\": "pane::SplitDown"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      // Cycle between tabs in the current pane
+      "ctrl-tab": "pane::ActivateNextItem",
+      "ctrl-shift-tab": "pane::ActivatePreviousItem"
+    }
+  },
+  {
+    "context": "Editor",
+    "unbind": {
+      "ctrl-t": "editor::Transpose"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-t": "workspace::NewCenterTerminal"
+    }
+  }
+]
