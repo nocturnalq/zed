@@ -36,8 +36,8 @@
   "buffer_font_size": 13,
   "theme": {
     "mode": "system",
-    "light": "Jellybeans",
-    "dark": "Jellybeans",
+    "light": "Onyx Light",
+    "dark": "Onyx Dark",
   },
   "buffer_font_features": {
     "calt": false
