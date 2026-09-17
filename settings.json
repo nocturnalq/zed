@@ -43,5 +43,8 @@
     "calt": false
   },
   "relative_line_numbers": "enabled",
+  // brew install --cask font-jetbrains-mono-nerd-font
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_family": "JetBrainsMono Nerd Font",
 
 }
